@@ -425,7 +425,7 @@ static NSInteger postsInRequest = 3;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    // высота секции 
+    // высота секции
     return 40;
 }
 

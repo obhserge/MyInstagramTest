@@ -10,9 +10,6 @@
 
 @interface obhCommentCell : UITableViewCell
 
-@property (weak, nonatomic) IBOutlet UILabel *fromTextLabel;
-@property (weak, nonatomic) IBOutlet UILabel *textLabel;
-
 + (CGFloat)heightForText:(NSString*) text withFont:(UIFont*) font;
 
 @end
